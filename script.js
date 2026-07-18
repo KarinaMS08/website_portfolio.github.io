@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initActiveLinkOnScroll();
   initScrollReveal();
-  initContactForm();
+  //initContactForm(); /* for future use */
   initCopyEmail();
   setFooterYear();
 });
