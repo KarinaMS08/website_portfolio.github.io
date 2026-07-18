@@ -101,9 +101,8 @@ function initScrollReveal() {
   items.forEach((el) => observer.observe(el));
 }
 
-//for future use
 
-/*
+//for future use
 function initContactForm() {
   const form = document.getElementById('contactForm');
   const status = document.getElementById('formStatus');
@@ -126,7 +125,9 @@ function initContactForm() {
     status.dataset.state = 'success';
     form.reset();
   }); 
-} */
+} 
+
+
 
 // Copies the email address to the clipboard, with a mailto fallback
 function initCopyEmail() {
