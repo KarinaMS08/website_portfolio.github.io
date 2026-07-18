@@ -122,10 +122,10 @@ function initContactForm() {
       return;
     }
 
-    status.textContent = `Thanks, ${name}! Your message looks good (demo mode — connect a backend or a service like Formspree/EmailJS to actually send it).`;
+    status.textContent = `Thanks, ${name}! Your message looks good`;
     status.dataset.state = 'success';
     form.reset();
-  });
+  }); */
 }
 
 // Copies the email address to the clipboard, with a mailto fallback
@@ -147,7 +147,7 @@ function initCopyEmail() {
       window.location.href = `mailto:${email}`;
     }
   });
-} */
+} 
 
 // Keeps the footer year current
 function setFooterYear() {
