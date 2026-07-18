@@ -125,8 +125,8 @@ function initContactForm() {
     status.textContent = `Thanks, ${name}! Your message looks good`;
     status.dataset.state = 'success';
     form.reset();
-  }); */
-}
+  }); 
+} */
 
 // Copies the email address to the clipboard, with a mailto fallback
 function initCopyEmail() {
